@@ -164,9 +164,6 @@ public class DeathListener implements Listener {
             return customName;
         }
 
-        if (mob.getType() == EntityType.PIG_ZOMBIE) {
-            return "Zombie Pigman";
-        }
         if (mob.getType() == EntityType.MUSHROOM_COW) {
             return "Mooshroom";
         }
